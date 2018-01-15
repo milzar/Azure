@@ -7,12 +7,11 @@
 
 {% block content %}
 	{% include 'partials/navbar.nunjucks' %}
-	{% include 'partials/slider.nunjucks' %}
 	{% include 'partials/about.nunjucks' %}
 	{% include 'partials/about-bg.nunjucks' %}
 	{% include 'partials/portfolio.nunjucks' %}
 	{% include 'partials/contact.nunjucks' %}
 	{% include 'partials/client.nunjucks' %}
 	{% include 'partials/footer.nunjucks' %}
-	
+
 {% endblock %}
