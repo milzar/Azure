@@ -1,0 +1,18 @@
+{% extends 'layout.nunjucks' %}
+
+{% block title %}
+	{# title from the data.json file #}
+	{{siteinfo.title}}
+{% endblock %}
+
+{% block content %}
+	{% include 'partials/navbar.nunjucks' %}
+	{% include 'partials/slider.nunjucks' %}
+	{% include 'partials/about.nunjucks' %}
+	{% include 'partials/about-bg.nunjucks' %}
+	{% include 'partials/portfolio.nunjucks' %}
+	{% include 'partials/contact.nunjucks' %}
+	{% include 'partials/client.nunjucks' %}
+	{% include 'partials/footer.nunjucks' %}
+	
+{% endblock %}

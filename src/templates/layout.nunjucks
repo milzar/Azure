@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	      <title>{% block sitetitle %} {% endblock %}</title>
+
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans|Raleway" rel="stylesheet">
+	      <link rel="stylesheet" href="css/flexslider.css">
+	      <link rel="stylesheet" href="css/bootstrap.min.css">
+	      <link rel="stylesheet" href="css/font-awesome.min.css">
+	      <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/navbar.css">
+        <link rel="stylesheet" href="css/about.css">
+        <link rel="stylesheet" href="css/about-bg.css">
+        <link rel="stylesheet" href="css/portfolio.css">
+        <link rel="stylesheet" href="css/contact.css">
+        <link rel="stylesheet" href="css/client.css">
+        <link rel="stylesheet" href="css/footer.css">
+
+
+    </head>
+    <body id="top" data-spy="scroll">
+    	{% block content %} {% endblock %}
+
+    	<!-- add your custom js files below -->
+    	<!--build:js js/main.min.js-->
+            <script src="js/main.js"></script>
+            <!--endbuild-->
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    </body>
+</html>

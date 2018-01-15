@@ -1,0 +1,11 @@
+/*Bottom Footer*/
+#bottom-footer {
+  background-color: #282828;
+  padding: 20px 0;
+  color: #8e8e8e; }
+
+#bottom-footer .footer-right ul > li > a {
+  color: #8e8e8e; }
+
+#bottom-footer .footer-right ul > li > a:hover {
+  color: #01b1d7; }
