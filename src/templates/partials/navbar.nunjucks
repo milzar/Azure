@@ -29,4 +29,9 @@
 			</nav>
 		</div>
 
+	 <div id="intro" class="view">
+	  <div class="full-bg-img">
+    </div>		
+	 </div>
+
 	</header>
