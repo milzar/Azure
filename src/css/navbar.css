@@ -102,9 +102,56 @@ header,
 #intro {
   height: 100%; }
 
-#intro {
-  background: url("/images/slider/slider1.jpg") no-repeat center center fixed;
+.intro {
+  background: url("/images/slider/slider2.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-attachment: scroll; }
+  background-attachment: scroll;
+  width: 100%;
+  display: table; }
+
+.intro .inner {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none; }
+
+.content {
+  max-width: 500px;
+  margin: 0 10px;
+  text-align: left; }
+
+.content h1 {
+  font-family: 'Josefin', sans-serif;
+  font-weight: 900;
+  text-shadow: 0px 0px 300px #000;
+  font-size: 500%; }
+
+.content .btn {
+  border: solid black 3px;
+  border-radius: 9px;
+  border-color: black;
+  color: #333;
+  font-size: 150%; }
+
+.content p {
+  color: black; }
+
+.content .btn:hover {
+  color: white;
+  border: solid white 4px;
+  background: black; }
+
+@media screen and (max-width: 500px) {
+  .content h1 {
+    font-family: 'Josefin', sans-serif;
+    font-weight: 900;
+    text-shadow: 0px 0px 300px #000;
+    font-size: 300%; }
+  content .btn {
+    border: solid black 3px;
+    border-radius: 9px;
+    border-color: black;
+    color: #333;
+    font-size: 100%; } }
