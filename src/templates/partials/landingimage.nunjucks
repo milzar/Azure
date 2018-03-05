@@ -1,0 +1,16 @@
+<!-- landingimage -->
+	<div id="landing-image">
+
+		<div class="container">
+      <div class="content index-intro__left">
+        <span class="bg-heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+        <br>
+			<button class="button">
+        Click Here
+      </button>
+    </div>
+		</div>
+
+
+
+	</div>

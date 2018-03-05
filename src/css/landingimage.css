@@ -1,0 +1,64 @@
+/*About bg*/
+#landing-image {
+  position: relative;
+  background-image: url(../images/landingpage/background1.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-transform: uppercase;
+  padding: 200px 0;
+  color: #fff; }
+
+  .content{
+    position: relative;
+    float:left;
+  }
+
+  .bg-heading {
+    color: #01b1d7;
+    font-family: 'Josefin', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    line-height: 40px;
+    z-index: -2; }
+
+  .index-intro__left {
+    max-width: 400px;
+    position: relative;
+}
+
+  .button {
+      background-color: white;
+      border: none;
+      color: #01b1d7 ;
+      padding: 16px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+      cursor: pointer;
+  }
+
+  .button:hover {
+    background-color: #01b1d7;
+    color: white;
+    border: 2px soild white;
+}
+
+
+/*Media*/
+@media screen and (min-width: 320px) and (max-width: 520px) {
+  .about-bg-heading h1 {
+    font-size: 28px; }
+  .about-bg-wrapper {
+    margin-left: 25%; } }
+
+/*Media*/
+@media screen and (min-width: 521px) and (max-width: 980px) {
+  .about-bg-heading h1 {
+    font-size: 30px; }
+  .about-bg-wrapper {
+    margin-left: 35%; } }
