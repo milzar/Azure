@@ -7,6 +7,7 @@
 
 {% block content %}
 	{% include 'partials/navbar.nunjucks' %}
+	{% include 'partials/landingimage.nunjucks' %}
 	{% include 'partials/about.nunjucks' %}
 	{% include 'partials/about-bg.nunjucks' %}
 	{% include 'partials/portfolio.nunjucks' %}
